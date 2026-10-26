@@ -19,7 +19,7 @@ export async function enableMocking() {
     const { worker } = await import("@/mocks/browser");
     try {
       await worker.start({
-        onUnhandledFrame: "bypass",
+        onUnhandledRequest: "bypass",
       });
       mockingStarted = true;
     } catch (error) {
