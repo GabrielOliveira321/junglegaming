@@ -1,0 +1,534 @@
+{
+  "generatedAt": "2026-10-26T20:52:34.478466+00:00",
+  "execution": {
+    "baseUrl": "http://127.0.0.1:4180",
+    "scenario": "default (fresh browser context per run)",
+    "runsPerPageProfile": 3,
+    "pages": [
+      {
+        "id": "home",
+        "path": "/"
+      },
+      {
+        "id": "nft-detail",
+        "path": "/nft/nft-emerald-042"
+      }
+    ],
+    "profiles": [
+      {
+        "id": "mobile",
+        "configPath": "lighthouse/config.mobile.json"
+      },
+      {
+        "id": "desktop",
+        "configPath": "lighthouse/config.desktop.json"
+      }
+    ],
+    "chromeFlags": "--headless=new --no-sandbox --disable-dev-shm-usage"
+  },
+  "environment": {
+    "os": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "cpu": "AMD Ryzen 7 5825U with Radeon Graphics",
+    "node": "v24.15.0",
+    "npm": "11.12.1",
+    "lighthouse": "13.5.0"
+  },
+  "reports": [
+    {
+      "profile": "desktop",
+      "page": "home",
+      "run": 1,
+      "url": "http://127.0.0.1:4180/?sort=recent&page=1",
+      "reportHtml": "reports/lighthouse/desktop-home-run1.report.report.html",
+      "reportJson": "reports/lighthouse/desktop-home-run1.report.json",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 690.66,
+        "cls": 0.0084,
+        "tbtMs": 0
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "run": 2,
+      "url": "http://127.0.0.1:4180/?sort=recent&page=1",
+      "reportHtml": "reports/lighthouse/desktop-home-run2.report.report.html",
+      "reportJson": "reports/lighthouse/desktop-home-run2.report.json",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 690.75,
+        "cls": 0.0084,
+        "tbtMs": 0
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "run": 3,
+      "url": "http://127.0.0.1:4180/?sort=recent&page=1",
+      "reportHtml": "reports/lighthouse/desktop-home-run3.report.report.html",
+      "reportJson": "reports/lighthouse/desktop-home-run3.report.json",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 691.47,
+        "cls": 0.0084,
+        "tbtMs": 0
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "page": "nft-detail",
+      "run": 1,
+      "url": "http://127.0.0.1:4180/nft/nft-emerald-042?tab=sobre",
+      "reportHtml": "reports/lighthouse/desktop-nft-detail-run1.report.report.html",
+      "reportJson": "reports/lighthouse/desktop-nft-detail-run1.report.json",
+      "scores": {
+        "performance": 97.0,
+        "accessibility": 98.0,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 702.15,
+        "cls": 0.1067,
+        "tbtMs": 0
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "page": "nft-detail",
+      "run": 2,
+      "url": "http://127.0.0.1:4180/nft/nft-emerald-042?tab=sobre",
+      "reportHtml": "reports/lighthouse/desktop-nft-detail-run2.report.report.html",
+      "reportJson": "reports/lighthouse/desktop-nft-detail-run2.report.json",
+      "scores": {
+        "performance": 97.0,
+        "accessibility": 98.0,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 728.44,
+        "cls": 0.1067,
+        "tbtMs": 0
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "desktop",
+      "page": "nft-detail",
+      "run": 3,
+      "url": "http://127.0.0.1:4180/nft/nft-emerald-042?tab=sobre",
+      "reportHtml": "reports/lighthouse/desktop-nft-detail-run3.report.report.html",
+      "reportJson": "reports/lighthouse/desktop-nft-detail-run3.report.json",
+      "scores": {
+        "performance": 97.0,
+        "accessibility": 98.0,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 732.98,
+        "cls": 0.1067,
+        "tbtMs": 0
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "page": "home",
+      "run": 1,
+      "url": "http://127.0.0.1:4180/?sort=recent&page=1",
+      "reportHtml": "reports/lighthouse/mobile-home-run1.report.report.html",
+      "reportJson": "reports/lighthouse/mobile-home-run1.report.json",
+      "scores": {
+        "performance": 90.0,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 3158.27,
+        "cls": 0.0006,
+        "tbtMs": 11
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "page": "home",
+      "run": 2,
+      "url": "http://127.0.0.1:4180/?sort=recent&page=1",
+      "reportHtml": "reports/lighthouse/mobile-home-run2.report.report.html",
+      "reportJson": "reports/lighthouse/mobile-home-run2.report.json",
+      "scores": {
+        "performance": 90.0,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 3159.16,
+        "cls": 0.0006,
+        "tbtMs": 44
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "page": "home",
+      "run": 3,
+      "url": "http://127.0.0.1:4180/?sort=recent&page=1",
+      "reportHtml": "reports/lighthouse/mobile-home-run3.report.report.html",
+      "reportJson": "reports/lighthouse/mobile-home-run3.report.json",
+      "scores": {
+        "performance": 90.0,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 3156.33,
+        "cls": 0.0006,
+        "tbtMs": 12.5
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "page": "nft-detail",
+      "run": 1,
+      "url": "http://127.0.0.1:4180/nft/nft-emerald-042?tab=sobre",
+      "reportHtml": "reports/lighthouse/mobile-nft-detail-run1.report.report.html",
+      "reportJson": "reports/lighthouse/mobile-nft-detail-run1.report.json",
+      "scores": {
+        "performance": 88.0,
+        "accessibility": 98.0,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 3309.84,
+        "cls": 0.0496,
+        "tbtMs": 11.5
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "page": "nft-detail",
+      "run": 2,
+      "url": "http://127.0.0.1:4180/nft/nft-emerald-042?tab=sobre",
+      "reportHtml": "reports/lighthouse/mobile-nft-detail-run2.report.report.html",
+      "reportJson": "reports/lighthouse/mobile-nft-detail-run2.report.json",
+      "scores": {
+        "performance": 88.0,
+        "accessibility": 98.0,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 3309.08,
+        "cls": 0.0496,
+        "tbtMs": 3.5
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "page": "nft-detail",
+      "run": 3,
+      "url": "http://127.0.0.1:4180/nft/nft-emerald-042?tab=sobre",
+      "reportHtml": "reports/lighthouse/mobile-nft-detail-run3.report.report.html",
+      "reportJson": "reports/lighthouse/mobile-nft-detail-run3.report.json",
+      "scores": {
+        "performance": 88.0,
+        "accessibility": 98.0,
+        "bestPractices": 100,
+        "seo": 100
+      },
+      "vitals": {
+        "lcpMs": 3309.46,
+        "cls": 0.0496,
+        "tbtMs": 14.5
+      },
+      "topOpportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 130\u00a0KiB"
+        },
+        {
+          "title": "Initial server response time was short",
+          "displayValue": "Root document took 0\u00a0ms"
+        },
+        {
+          "title": "Reduce unused CSS",
+          "displayValue": ""
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "targets": {
+      "performance": 90,
+      "accessibility": 95,
+      "bestPractices": 95,
+      "seo": 90
+    },
+    "medians": [
+      {
+        "profile": "mobile",
+        "page": "home",
+        "runs": 3,
+        "medianScores": {
+          "performance": 90.0,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "medianVitals": {
+          "lcpMs": 3158.27,
+          "cls": 0.0006,
+          "tbtMs": 12.5
+        },
+        "belowTarget": [],
+        "likelyCauses": [
+          "Reduce unused JavaScript (Est savings of 130\u00a0KiB)",
+          "Initial server response time was short (Root document took 0\u00a0ms)",
+          "Reduce unused CSS"
+        ]
+      },
+      {
+        "profile": "mobile",
+        "page": "nft-detail",
+        "runs": 3,
+        "medianScores": {
+          "performance": 88.0,
+          "accessibility": 98.0,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "medianVitals": {
+          "lcpMs": 3309.46,
+          "cls": 0.0496,
+          "tbtMs": 11.5
+        },
+        "belowTarget": [
+          "performance"
+        ],
+        "likelyCauses": [
+          "Reduce unused JavaScript (Est savings of 130\u00a0KiB)",
+          "Initial server response time was short (Root document took 0\u00a0ms)",
+          "Reduce unused CSS"
+        ]
+      },
+      {
+        "profile": "desktop",
+        "page": "home",
+        "runs": 3,
+        "medianScores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "medianVitals": {
+          "lcpMs": 690.75,
+          "cls": 0.0084,
+          "tbtMs": 0
+        },
+        "belowTarget": [],
+        "likelyCauses": [
+          "Reduce unused JavaScript (Est savings of 130\u00a0KiB)",
+          "Initial server response time was short (Root document took 0\u00a0ms)",
+          "Reduce unused CSS"
+        ]
+      },
+      {
+        "profile": "desktop",
+        "page": "nft-detail",
+        "runs": 3,
+        "medianScores": {
+          "performance": 97.0,
+          "accessibility": 98.0,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "medianVitals": {
+          "lcpMs": 728.44,
+          "cls": 0.1067,
+          "tbtMs": 0
+        },
+        "belowTarget": [],
+        "likelyCauses": [
+          "Reduce unused JavaScript (Est savings of 130\u00a0KiB)",
+          "Initial server response time was short (Root document took 0\u00a0ms)",
+          "Reduce unused CSS"
+        ]
+      }
+    ]
+  }
+}
